@@ -1,0 +1,31 @@
+redis:
+    host: 127.0.0.1
+coffee:
+  machine:
+    default_setpoint: 98.0
+  inputs:
+    power:
+      pin: 7
+      default: off
+    brew:
+      pin: 11
+      default: off
+    pump:
+      pin: 13
+      default: off
+    steam:
+      pin: 15
+      default: off
+  outputs:
+    pump:
+      pin: 12
+      default: off
+    boiler:
+      pin: 8
+      default: off
+    valve:
+      pin: 10
+      default: off
+    arduino:
+      pin: 22
+      default: on

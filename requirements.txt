@@ -1,0 +1,5 @@
+smbus
+redis
+webob
+simplejson
+brim
